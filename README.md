@@ -15,11 +15,12 @@ npm install @rill/stats
 ```javascript
 var stats = require("@rill/stats");
 
-// All every request will be measured with stats.js.
+// Every request will be measured with stats.js.
 app.use(stats({ mode: "ms" }));
 ```
 
-# Default modes (Click on the frame to switch between modes).
+# Default modes
+#### (Click on the frame to switch between modes).
 
 ```js
 {
