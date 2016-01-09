@@ -30,6 +30,11 @@ app.use(stats({ mode: "ms" }));
 }
 ```
 
+# Production Use
+
+@rill/stats exposes a noop function when "process.env.NODE_ENV" is true.
+This allows for build tools such as babel, browserify or webpack to remove this functionality for production sites.
+
 ### Contributions
 
 * Use gulp to run tests.
