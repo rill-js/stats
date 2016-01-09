@@ -1,0 +1,16 @@
+{
+  "name": "@rill/stats",
+  "version": "0.1.1",
+  "description": "Simple browser performance monitoring.",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "license": "MIT",
+  "main": "server/index.js",
+  "browser": "client/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rill-js/stats"
+  },
+  "dependencies": {
+    "stats.js": "^0.0.14-master"
+  }
+}
